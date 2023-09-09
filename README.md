@@ -130,5 +130,54 @@
 
 #5. To Do List
 
+#to-do-list.html
 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="to-do-list.css">
+</head>
+<body>
+    <div class="my-list">
+        <h1>Today's to do list</h1>
+        <p>Monday, September 19th</p>
+        <ol>
+            <li>Write a blog post</li>
+            <li>Go to the bank</li>
+            <li>Study for exams</li>
+            <li>Renew web hosting account and domain name</li>
+            <li>Learn something new</li>
+            <li>Update project</li>
+        </ol>
+    </div>
+</body>
+</html>
+
+
+#to-do-list.css
+
+.my-list
+{
+    background-color: #f7f381;
+    padding: 8px 24px;
+    width: 500px;
+    font-size: 30px;
+    border: 1px solid #f7f381;
+    background-color: #f7f381;
+    box-shadow: 0 0 10px 2px #333333;
+    margin: auto;
+}
+
+.my-list ol
+{
+    margin: 12px;
+}
+
+.my-list p
+{
+    text-align: center;
+}
    
