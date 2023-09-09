@@ -166,7 +166,6 @@
     width: 500px;
     font-size: 30px;
     border: 1px solid #f7f381;
-    background-color: #f7f381;
     box-shadow: 0 0 10px 2px #333333;
     margin: auto;
 }
