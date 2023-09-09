@@ -179,4 +179,18 @@
 {
     text-align: center;
 }
-   
+
+
+
+#6. Simple HTML Page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple HTML Page</title>
+</head>
+<body>
+    <p>I am learning <strong>HTML</strong> and <strong>CSS</strong>!</p>
+</body>
+</html>
