@@ -2,7 +2,7 @@
 
 
 
-#1. Welcome to HTML
+# 1. Welcome to HTML
 
 <!DOCTYPE html>
 <head>
@@ -16,7 +16,7 @@
 
 
 
-#2. Fruits
+# 2. Fruits
 
 <!DOCTYPE html>
 <head>
@@ -47,7 +47,7 @@
 
 
 
-#3. Wiki Page
+# 3. Wiki Page
 
 <!DOCTYPE html>
 <head>
@@ -85,7 +85,7 @@
 
 
 
-#4. HTML Lists
+# 4. HTML Lists
 
 <!DOCTYPE html>
 <html>
@@ -128,7 +128,7 @@
 
 
 
-#5. To Do List
+# 5. To Do List
 
 #to-do-list.html
 
@@ -182,7 +182,7 @@
 
 
 
-#6. Simple HTML Page
+# 6. Simple HTML Page
 
 <!DOCTYPE html>
 <html lang="en">
@@ -197,7 +197,7 @@
 
 
 
-#7. Tags Cardio - Paragraphs
+# 7. Tags Cardio - Paragraphs
 
 <!DOCTYPE html>
 <html>
@@ -223,4 +223,26 @@
 </html>
 
 
+
+# 8. Single Article Page
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Single Article Page</title>
+</head>
+<body>
+    <article>
+    <h2>Egyptian Mau</h2>
+    <h4>Egyptian Maus are a small- to medium-sized short-haired cat breed.</h4>
+    <p>Along with the Bahraini Dilmun cat, they are one of the few naturally spotted breeds of domesticated cat. The spots of the Mau occur on only the tips of the hairs of its coat. It is considered to be a rare breed.</p>
+    <p>The breed conformation is described as "a balance between the compactness of a Burmese and the slim elegance of a Siamese. Its medium-length body is muscular, with the hind legs longer than the front, giving the Mau the appearance of standing on tiptoes when upright."</p>
+    <img src="Egyptian-Mau-Bronze-750 (1).jpg">
+    </article>
+</body>
+</html>
+
+
+# 9. Tags Cardio - Lists
 
