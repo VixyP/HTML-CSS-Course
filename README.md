@@ -1,4 +1,7 @@
 # HTML-CSS-Course
+
+
+
 #1. Welcome to HTML
 
 <!DOCTYPE html>
@@ -10,6 +13,8 @@
     <p>I am learning <strong>HTML</strong> and <strong>CSS</strong>!</p>
 </body>
 </html>
+
+
 
 #2. Fruits
 
@@ -39,6 +44,8 @@
         <img src="apple.png"></p>
 </body>
 </html>
+
+
 
 #3. Wiki Page
 
@@ -76,4 +83,52 @@
 </body>
 </html>
 
-#4. To Do List
+
+
+#4. HTML Lists
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--link rel="stylesheet" href="styles.css"-->
+</head>
+<body>
+    <ol type="I">
+        <li>List item 1
+            <ol type="a">
+                <li>Nested item 1.1</li>
+                <li>Nested item 1.2</li>
+            </ol>
+        </li>
+        <li>List item 2
+            <ol type="1">
+                <li>Nested item 2.1</li>
+                <li>Nested item 2.2
+                    <ul type="circle">
+                        <li>Nested item 2.2.1</li>
+                        <li>Nested item 2.2.2</li>
+                        <li>Nested item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>Nested item 2.3</li>
+            </ol>
+        </li>
+        <li>List item 3
+            <ul type="disc">
+                <li>Nested item 3.1</li>
+                <li>Nested item 3.2</li>
+                <li>Nested item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+
+
+
+#5. To Do List
+
+
+   
