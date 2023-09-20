@@ -640,3 +640,21 @@
 
 <!-- 19. Tag Cardio: Semantic HTML Header -->
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Cardio: Semantic HTML Header</title>
+</head>
+<body>
+    <header>
+        <h1>Epcot Center</h1>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </header>
+</body>
+</html>
+
+
+
+<!-- 20. Tag Cardio: Semantic HTML Main -->
+
+
