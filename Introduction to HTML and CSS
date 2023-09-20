@@ -725,12 +725,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tag Cardio: Semantic HTML Section</title>
+    <title>Tag Cardio: Semantic HTML Nav</title>
 </head>
 <body>
-    <section>
-        <h2>Google Chrome</h2>
-        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-    </section>
+    <nav>
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+        <a href="">JavaScript</a>
+        <a href="">Python</a>
+    </nav>
 </body>
 </html>
+
+
+
+<!-- Tag Cardio: Semantic HTML Details and Summary -->
+
