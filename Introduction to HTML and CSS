@@ -1,8 +1,8 @@
-# HTML-CSS-Course Part 1 Introduction to HTML and CSS
+<!-- HTML-CSS-Course Part 1 Introduction to HTML and CSS -->
 
 
 
-# 1. Welcome to HTML
+<!-- 1. Welcome to HTML -->
 
 <!DOCTYPE html>
 <head>
@@ -16,7 +16,7 @@
 
 
 
-# 2. Fruits
+<!-- 2. Fruits -->
 
 <!DOCTYPE html>
 <head>
@@ -47,7 +47,7 @@
 
 
 
-# 3. Wiki Page
+<!-- 3. Wiki Page -->
 
 <!DOCTYPE html>
 <head>
@@ -85,7 +85,7 @@
 
 
 
-# 4. HTML Lists
+<!-- 4. HTML Lists -->
 
 <!DOCTYPE html>
 <html>
@@ -127,9 +127,9 @@
 
 
 
-# 5. To Do List
+<!-- 5. To Do List -->
 
-#to-do-list.html
+<!-- to-do-list.html -->
 
 
 <!DOCTYPE html>
@@ -156,7 +156,7 @@
 </html>
 
 
-#to-do-list.css
+/* to-do-list.css */
 
 .my-list
 {
@@ -181,7 +181,7 @@
 
 
 
-# 6. Simple HTML Page
+<!-- 6. Simple HTML Page -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -196,7 +196,7 @@
 
 
 
-# 7. Tags Cardio - Paragraphs
+<!-- 7. Tags Cardio - Paragraphs -->
 
 <!DOCTYPE html>
 <html>
@@ -223,7 +223,7 @@
 
 
 
-# 8. Single Article Page
+<!-- 8. Single Article Page -->
 
 <!DOCTYPE html>
 <html>
@@ -244,7 +244,7 @@
 
 
 
-# 9. Tags Cardio - Lists
+<!-- 9. Tags Cardio - Lists -->
 
 <!DOCTYPE html>
 <html>
@@ -277,7 +277,7 @@
 
 
 
-# 10. Tags Cardio - Nested Lists
+<!-- 10. Tags Cardio - Nested Lists -->
 
 <!DOCTYPE html>
 <html>
@@ -325,7 +325,7 @@
 
 
 
-# 11. Tags Cardio - Table
+<!-- 11. Tags Cardio - Table -->
 
 <!DOCTYPE html>
 <html>
@@ -377,7 +377,7 @@
 
 
 
-# 11. Navigation Bar
+<!-- 11. Navigation Bar -->
 
 <!DOCTYPE html>
 <html>
@@ -400,7 +400,7 @@
 
 
 
-# 12. Page Content
+<!-- 12. Page Content -->
 
 <!DOCTYPE html>
 <html>
@@ -431,7 +431,7 @@
 
 
 
-# 13. Simple Website
+<!-- 13. Simple Website -->
 
 <!DOCTYPE html>
 <html>
@@ -478,7 +478,7 @@
 
 
 
-# 14. Exam Results
+<!-- 14. Exam Results -->
 
 <!DOCTYPE html>
 <html>
@@ -544,7 +544,7 @@
 
 
 
-# 15. Tag Cardio: Headers
+<!-- 15. Tag Cardio: Headers -->
 
 <!DOCTYPE html>
 <html>
@@ -563,7 +563,7 @@
 
 
 
-# 16. Tag Cardio: Paragraphs
+<!-- 16. Tag Cardio: Paragraphs -->
 
 <!DOCTYPE html>
 <html>
@@ -577,4 +577,45 @@
 
 
 
-# 17. Tag Cardio: Order and Unorder Lists
+<!-- 17. Tag Cardio: Order and Unorder Lists -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Cardio: Order and Unorder Lists</title>
+</head>
+<body>
+    <ol type="I">
+        <li>List item 1
+            <ol type="a">
+                <li>Nested item 1.1</li>
+                <li>Nested item 1.2</li>
+            </ol>
+        </li>
+        <li>List item 2
+            <ol type="1">
+                <li>Nested item 2.1</li>  
+                <li>Nested item 2.2
+                    <ul type="circle">
+                        <li>Nested item 2.2.1</li>
+                        <li>Nested item 2.2.2</li>
+                        <li>Nested item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>Nested item 2.3</li>
+            </ol>
+        </li>
+        <li>List item 3
+            <ul type="disc">
+                <li>Nested item 3.1</li>
+                <li>Nested item 3.2</li>
+                <li>Nested item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+
+
+
+<!-- 18. Tag Cardio: Definition Lists -->
