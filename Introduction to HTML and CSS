@@ -657,4 +657,33 @@
 
 <!-- 20. Tag Cardio: Semantic HTML Main -->
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Cardio: Semantic HTML Main</title>
+</head>
+<body>
+    <main>
+        <h1>Most Popular Browsers</h1>
+        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+    </main>
+</body>
+</html>
 
+
+
+<!-- 21. Tag Cardio: Semantic HTML Footer -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Cardio: Semantic HTML Footer</title>
+</head>
+<body>
+    <footer><p>HTML&CSS</p></footer>
+</body>
+</html>
+
+
+
+<!-- 22. Tag Cardio: Semantic HTML Article --> 
