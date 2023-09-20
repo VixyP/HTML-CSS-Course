@@ -619,3 +619,24 @@
 
 
 <!-- 18. Tag Cardio: Definition Lists -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Cardio: Definition Lists</title>
+</head>
+<body>
+    <h2>List Header</h2>
+    <dl>
+        <dt>JavaScript</dt>
+        <dd>Programming language, that runs on the Web.</dd>
+        <dt>HTML</dt>
+        <dd>Language for describing Web content, using text and tags.</dd>
+    </dl>
+</body>
+</html>
+
+
+
+<!-- 19. Tag Cardio: Semantic HTML Header -->
+
