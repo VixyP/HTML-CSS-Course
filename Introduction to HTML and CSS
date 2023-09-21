@@ -820,7 +820,7 @@
 <html>
 <head>
     <title>Selector Cardio: Class</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
     <div>
@@ -832,7 +832,7 @@
 </html>
 
 
-/* styles.css */
+/* selector-cardio-id.css */
 
 
 h1 {font-size: 50px;}
@@ -850,7 +850,7 @@ h1 {font-size: 50px;}
 <html>
 <head>
     <title>Selector Cardio: Class</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
     <div>
@@ -862,7 +862,7 @@ h1 {font-size: 50px;}
 </html>
 
 
-/* styles.css */
+/* selector-cardio-id.css */
 
 
 div {background-color: green;}
@@ -878,7 +878,7 @@ div {background-color: green;}
 <html>
 <head>
     <title>Selector Cardio: Class</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
     <div>
@@ -890,7 +890,7 @@ div {background-color: green;}
 </html>
 
 
-/* styles.css */
+/* selector-cardio-id.css */
 
 
 div {color: red;}
@@ -906,7 +906,7 @@ div {color: red;}
 <html>
 <head>
     <title>Selector Cardio: Class</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
     <div>
@@ -918,7 +918,7 @@ div {color: red;}
 </html>
 
 
-/* styles.css */
+/* selector-cardio-id.css */
 
 
 div {font-family: 'Gill Sans', sans-serif;}
@@ -935,7 +935,7 @@ div {font-family: 'Gill Sans', sans-serif;}
 <head>
     <meta charset="UTF-8">
     <title>Navigation Bar</title>
-    <link rel="stylesheet" href="task.css">
+    <link rel="stylesheet" href="nav-bar.css">
 </head>
 <body>
     <nav>
@@ -988,6 +988,50 @@ a {
 
 <!-- page-content.html -->
 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page Content</title>
+    <link rel="stylesheet" href="page-content.css">
+</head>
+<body>
+    <section>
+        <article>
+            <header>
+                <h1>Just Another Day</h1>
+                <p>Written by Christina on January 11th</p>
+            </header>
+            <p>This is my second blog entry, and I just wanted to check in on you</p>
+        </article>
+        <article>
+            <header>
+                <h1>My First Blog Entry</h1>
+                <p>Written by Christina on January 10th</p>
+            </header>
+            <p>I'm so happy to write my first blog entry - yay!</p>
+        </article>
+    </section>
+</body>
+</html>
+
+
+/* page-content.css */
+
+
+header > h1 {font-size: 28px;}
+header > p {font-style: italic;}
+article > p {font-size: 24px;}
+
+body 
+    {  
+        margin: 0px;
+        padding: 0px;
+        background-color: #CCCCCC;
+    }
+    
+section {margin-left: 20px;}
 
 
 
