@@ -1035,5 +1035,93 @@ section {margin-left: 20px;}
 
 
 
+<!-- 35. Simple Website -->
+
+<!-- simple-website.html -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="simple-website.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Tutorials</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <header>
+                <h1>Just Another Day</h1>
+                <p>Written by Christina on January 11th</p>
+            </header>
+            <p>This is my second blog entry, and I just wanted to check in on you</p>
+        </article>
+        <article>
+            <header>
+                <h1>My First Blog Entry</h1>
+                <p>Written by Christina on January 10th</p>
+            </header>
+            <p>I'm so happy to write my first blog entry - yay!</p>
+        </article>
+    </section>
+    <footer>
+        <p>© Copyright 2009 Your name</p>
+    </footer>
+</body>
+</html>
+
+
+/* simple-website.css */
+
+
+ul {
+    background-color: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li {
+    font-size:  24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header > h1 {font-size: 28px;}
+header > p {font-style: italic;}
+article > p {font-size: 24px;}
+
+body 
+    {  
+        margin: 0px;
+        padding: 0px;
+        background-color: #CCCCCC;
+    }
+
+section {margin-left: 20px;}
+
+footer 
+{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
 
 
