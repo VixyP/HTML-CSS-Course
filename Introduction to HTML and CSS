@@ -1108,8 +1108,7 @@ header > h1 {font-size: 28px;}
 header > p {font-style: italic;}
 p {font-size: 24px;}
 
-body 
-    {  
+body {  
         margin: 0px;
         padding: 0px;
         background-color: #CCCCCC;
