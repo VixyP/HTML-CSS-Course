@@ -1,1 +1,13 @@
+<!-- 1. My First Page -->
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My First Web Page</h1>
+    <p>I am learning <strong>HTML</strong> and CSS!</p>
+</body>
+</html>
