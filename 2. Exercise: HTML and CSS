@@ -11,3 +11,24 @@
     <p>I am learning <strong>HTML</strong> and CSS!</p>
 </body>
 </html>
+
+
+
+<!-- 2. Definition Lists -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Definition Lists</title>
+</head>
+<body>
+    <h2>List Header</h2>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>This is the definition of the first term.</dd>
+        <dt>Term 2</dt>
+        <dd>This is the definition of the second term.</dd>
+    </dl>     
+</body>
+</html>
