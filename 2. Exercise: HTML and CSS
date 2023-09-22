@@ -32,3 +32,39 @@
     </dl>     
 </body>
 </html>
+
+
+
+<!-- 3. Reversed List -->
+
+<!-- reversed-list.html -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reversed List</title>
+    <link rel="stylesheet" href="reversed-list.css">
+</head>
+<body>
+    <div id="wrapper">
+        <ol reversed="reversed">
+            <li>Turn Left on N Orchard St</li>
+            <li>Turn Right on W Deversey Pkwy</li>
+            <li>Head north on N Halsted St</li>
+        </ol>
+    </div>
+</body>
+</html>
+
+
+/* reversed-list.css */
+
+
+#wrapper {
+    background-color: #dddddd;
+    color: #95191a;
+    width: 300px;
+    border: 1px solid #000000;
+}
