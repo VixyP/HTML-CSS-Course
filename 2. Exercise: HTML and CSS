@@ -1,3 +1,59 @@
+<!-- 1. Welcome to HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <p>I am learning <strong>HTML</strong> and <strong>CSS</strong>!</p>
+</body>
+</html>
+
+
+
+<!-- 2. Fruits -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fruits</title>
+</head>
+<body>
+    <h1>Fruits</h1>
+    <p>
+        <img src="banana.png">
+        <img src="orange.png">
+        <img src="kiwi.png">
+        <img src="kiwi.png">
+        <img src="apple.png">
+    </p>
+    <p>
+        <img src="apple.png">
+        <img src="apple.png">
+        <img src="banana.png">
+        <img src="kiwi.png">
+        <img src="orange.png">
+    </p>
+    <p>
+        <img src="orange.png">
+        <img src="banana.png">
+        <img src="orange.png">
+        <img src="orange.png">
+        <img src="apple.png">
+    </p>
+</body>
+</html>
+
+
+
+
+
+
+
+
 <!-- 1. My First Page -->
 
 <!DOCTYPE html>
@@ -481,4 +537,7 @@ td {
 tr:nth-child(even) td, tr:nth-child(even) th {
     background-color: #689ad8;
     }
+
+
+
 
