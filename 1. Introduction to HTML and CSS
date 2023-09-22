@@ -1217,3 +1217,20 @@ th {
     text-align: right;
     padding-right: 5px;
 }
+
+
+
+<!-- 37. My First Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>My super website</h1>
+    <p>Hello and welcome to my website!</p>
+    <p>My website is still a bit empty. But wait a while yet!</p>
+</body>
+</html>
