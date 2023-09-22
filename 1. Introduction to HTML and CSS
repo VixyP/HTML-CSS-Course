@@ -48,7 +48,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Wiki Page</title>
 </head>
 <body>
 
@@ -87,7 +87,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>HTML Lists</title>
 </head>
 <body>
     <ol type="I">
@@ -132,7 +132,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="to-do-list.css">
 </head>
 <body>
@@ -794,7 +794,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Selector Cardio: Class</title>
+    <title>Selector Cardio: ID</title>
 </head>
 <body>
     <div>
@@ -815,7 +815,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Selector Cardio: Class</title>
+    <title>Selector Cardio: Attribute</title>
     <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
@@ -845,7 +845,7 @@ h1 {font-size: 50px;}
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Selector Cardio: Class</title>
+    <title>Selector Cardio: Background</title>
     <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
@@ -873,7 +873,7 @@ div {background-color: green;}
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Selector Cardio: Class</title>
+    <title>Selector Cardio: Color</title>
     <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
@@ -901,7 +901,7 @@ div {color: red;}
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Selector Cardio: Class</title>
+    <title>Selector Cardio: Font Family</title>
     <link rel="stylesheet" href="selector-cardio-id.css">
 </head>
 <body>
