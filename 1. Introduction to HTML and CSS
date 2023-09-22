@@ -1234,3 +1234,26 @@ th {
     <p>My website is still a bit empty. But wait a while yet!</p>
 </body>
 </html>
+
+
+
+<!-- 39. Description List -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Description List</title>
+</head>
+<body>
+    <h1>Languages</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Is a markup language</dd>
+        <dt>Java</dt>
+        <dd>Is a programming language and platform</dd>
+        <dt>JavaScript</dt>
+        <dd>Is a scripting language</dd>
+    </dl>
+</body>
+</html>
