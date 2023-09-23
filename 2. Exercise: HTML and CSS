@@ -1,59 +1,3 @@
-<!-- 1. Welcome to HTML -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-</head>
-<body>
-    <p>I am learning <strong>HTML</strong> and <strong>CSS</strong>!</p>
-</body>
-</html>
-
-
-
-<!-- 2. Fruits -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Fruits</title>
-</head>
-<body>
-    <h1>Fruits</h1>
-    <p>
-        <img src="banana.png">
-        <img src="orange.png">
-        <img src="kiwi.png">
-        <img src="kiwi.png">
-        <img src="apple.png">
-    </p>
-    <p>
-        <img src="apple.png">
-        <img src="apple.png">
-        <img src="banana.png">
-        <img src="kiwi.png">
-        <img src="orange.png">
-    </p>
-    <p>
-        <img src="orange.png">
-        <img src="banana.png">
-        <img src="orange.png">
-        <img src="orange.png">
-        <img src="apple.png">
-    </p>
-</body>
-</html>
-
-
-
-
-
-
-
-
 <!-- 1. My First Page -->
 
 <!DOCTYPE html>
@@ -539,5 +483,78 @@ tr:nth-child(even) td, tr:nth-child(even) th {
     }
 
 
+
+<!-- 8. Create Header -->
+
+<!-- create-header.html -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Create Header</title>
+    <link rel="stylesheet" href="create-header.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Innovation Cloud</h1>
+        <p>"&quot;Connect your ideas globally&quot;"</p>
+        <button class="btn">Learn more</button>
+    </header>
+</body>
+</html>
+
+
+/* create-header.css */
+
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    container: center;
+    padding: 0 10px;
+    background-image: url(background-image.jpg) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 80px 0;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 27px;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.btn {
+    color: #ffffff;
+    background: none;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000;
+    border-color: #000;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
