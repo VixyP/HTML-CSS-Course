@@ -495,3 +495,45 @@ button:hover {
 button:active {
   background-color: blue;
 }
+
+
+
+<!-- 12. Selector Cardio: Focus -->
+
+<!-- selector-cardio-focus.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Active</title>
+    <link rel="stylesheet" href="selector-cardio-focus.css">
+</head>
+
+<body>
+    <p>Would you like to join our quest?</p>
+    <button class="joinBtn">Confirm</button>
+</body>
+
+</html>
+
+
+/* selector-cardio-focus.css */
+
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: darkmagenta;
+}
