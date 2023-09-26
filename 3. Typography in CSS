@@ -1,0 +1,497 @@
+<!-- 1. Selector Cardio: Descendant Combinator -->
+
+<!-- selector-cardio-descendant-combinator.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Descendant Combinator</title>
+    <link rel="stylesheet" href="selector-cardio-descendant-combinator.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-descendant-combinator.css */
+
+
+article > p {
+    background-color: yellow;
+}
+
+
+
+<!-- 2. Selector Cardio: General or Subsequent Sibling Combinator -->
+
+<!-- selector-cardio-general-or-subsequent-sibling-combinator.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: General or Subsequent Sibling Combinator</title>
+    <link rel="stylesheet" href="selector-cardio-general-or-subsequent-sibling-combinator.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-general-or-subsequent-sibling-combinator.css */
+
+
+p ~ span {
+    color: red;
+}
+
+
+
+<!-- 3. Selector Cardio: Adjacent or Next Sibling Combinator -->
+
+<!-- selector-cardio-adjacent-or-next-sibling-combinator.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Adjacent or Next Sibling Combinator</title>
+    <link rel="stylesheet" href="selector-cardio-adjacent-or-next-sibling-combinator.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-adjacent-or-next-sibling-combinator.css */
+
+
+span + p {
+    text-decoration: underline;
+}
+
+
+
+<! 4. Selector Cardio: Child Combinator -->
+
+<!-- selector-cardio-child-combinator.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Child Combinator</title>
+    <link rel="stylesheet" href="selector-cardio-child-combinator.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-child-combinator.css */
+
+
+article > code {
+    text-decoration: line-through;
+}
+
+
+
+<!-- 5. Selector Cardio: First Child -->
+
+<!-- selector-cardio-first-child.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: First Child</title>
+    <link rel="stylesheet" href="selector-cardio-first-child.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-first-child.css */
+
+
+span:first-child {
+    font-weight: bold;
+    color: red;
+}
+
+
+
+<!-- 6. Selector Cardio: First of Type -->
+
+<!-- selector-cardio-first-of-type.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: First of Type</title>
+    <link rel="stylesheet" href="selector-cardio-first-of-type.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-first-of-type.css */
+
+
+p:first-of-type {
+    background-color: blue;
+}
+
+
+
+<!-- 7. Selector Cardio: Last Child -->
+
+<!-- selector-cardio-last-child.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Last Child</title>
+    <link rel="stylesheet" href="selector-cardio-last-child.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-last-child.css */
+
+
+article span:last-child {
+    color: red;
+}
+
+
+
+<!-- 8. Selector Cardio: Last of Type -->
+
+<!-- selector-cardio-last-of-type.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Last of Type</title>
+    <link rel="stylesheet" href="selector-cardio-last-of-type.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-last-of-type.css */
+
+
+p:last-of-type {
+    background-color: yellow;
+}
+
+
+
+<!-- 9.Selector Cardio: Nth Child -->
+
+<!-- selector-cardio-nth-child.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Nth Child</title>
+    <link rel="stylesheet" href="selector-cardio-nth-child.css">
+</head>
+
+<body>
+    <article>
+        <span>This is not red because it appears before any paragraph.</span>
+        <p>Here is a paragraph.</p>
+        <code>Here is some code.</code>
+        <span>
+            This span is red because it appears after the paragraph, even though there
+            are other nodes in between
+        </span>
+        <p>Whatever it may be, keep smiling.</p>
+        <h1>Dream big</h1>
+        <span>
+            Doesn't matter how many or what kind of nodes are in between, all spans from
+            the same parent after a paragraph are red.
+        </span>
+    </article>
+    <span>
+        This span is not red because it doesn't share a parent with a paragraph
+    </span>
+
+</html>
+
+
+/* selector-cardio-nth-child.css */
+
+
+span:nth-child(odd) {
+    color: white;
+    background-color: red;
+}
+
+
+
+<! 10. Selector Cardio: Hover -->
+
+<!-- selector-cardio-hover.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Hover</title>
+    <link rel="stylesheet" href="selector-cardio-hover.css">
+</head>
+
+<body>
+    <p>Would you like to join our quest?</p>
+    <button class="joinBtn">Confirm</button>
+</body>
+
+</html>
+
+
+/* selector-cardio-hover.css */
+
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+
+
+<!-- 11. Selector Cardio: Active -->
+
+<!-- selector-cardio-active.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Cardio: Active</title>
+    <link rel="stylesheet" href="selector-cardio-active.css">
+</head>
+
+<body>
+    <p>Would you like to join our quest?</p>
+    <button class="joinBtn">Confirm</button>
+</body>
+
+</html>
+
+
+/* selector-cardio-active.css */
+
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: blue;
+}
