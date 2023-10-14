@@ -1,6 +1,5 @@
 <!-- 1. Welcome to HTML -->
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,5 +10,110 @@
   <p>I am learning <strong>HTML</strong> and <strong>CSS!</strong></p>
 </body>
 </html>
+
+
+
+<!-- 2. Fruits -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fruits</title>
+</head>
+<body>
+  <h1>Fruits</h1>
+  <p><img src="banana.png"><img src="orange.png"><img src="kiwi.png"><img src="kiwi.png"><img src="apple.png"></p>
+  <p><img src="apple.png"><img src="apple.png"><img src="banana.png"><img src="kiwi.png"><img src="orange.png"></p>
+  <p><img src="orange.png"><img src="banana.png"><img src="orange.png"><img src="orange.png"><img src="apple.png"></p>
+</body>
+</html>
+
+
+
+<!-- 3. Wiki Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fruits</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+
+  <p>The following countries have the largest populations of brown bears:</p>
+
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+
+  <img src="bear.jpg">
+</body>
+</html>
+
+
+
+<!-- 4. To Do List -->
+
+<!-- to-do-list.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="to-do-list.css">
+</head>
+<body>
+  <main class="my-list">
+    <h1>Today's to do list</h1>
+    <p>Monday, September 19th</p>
+    <ol>
+      <li>Write a blog post</li>
+      <li>Go to the bank</li>
+      <li>Study for exams</li>
+      <li>Renew web hosting account and domain name</li>
+      <li>Learn something new</li>
+      <li>Update project log</li>
+    </ol>
+  </main>
+</body>
+</html>
+
+
+/* to-do-list.css */
+
+
+.my-list {
+  background-color: #f7f381;
+  padding: 8px 24px;
+  width: 500px;
+  font-size: 30px;
+  border: 1px solid #f7f381;
+  box-shadow: 0 0 10px 2px #333333;
+  margin: auto;
+}
+
+ol {
+  margin: 12px;
+}
+
+p {
+  text-align: center;
+}
 
 
