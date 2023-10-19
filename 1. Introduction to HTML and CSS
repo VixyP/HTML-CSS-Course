@@ -1,547 +1,4 @@
-<!-- 1. Welcome to HTML -->
-
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-</head>
-<body>
-    <p>I am learning <strong>HTML</strong> and <strong>CSS</strong>!</p>
-</body>
-</html>
-
-
-
-<!-- 2. Fruits -->
-
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>Fruits</title>
-</head>
-<body>
-    <h1>Fruits</h1>
-    <p><img src="banana.png">
-        <img src="orange.png">
-        <img src="kiwi.png">
-        <img src="kiwi.png">
-        <img src="apple.png"></p>
-
-    <p><img src="apple.png">
-        <img src="apple.png">
-        <img src="banana.png">
-        <img src="kiwi.png">
-        <img src="orange.png"></p>
-
-    <p><img src="orange.png">
-        <img src="banana.png">
-        <img src="orange.png">
-        <img src="orange.png">
-        <img src="apple.png"></p>
-</body>
-</html>
-
-
-
-<!-- 3. Wiki Page -->
-
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>Wiki Page</title>
-</head>
-<body>
-
-    <h1>The Brown Bear</h1>
-    <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
-        
-    <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
-        
-    <p>Here are some bear species:</p>
-
-    <ul>
-        <li>Arctos</li>
-        <li>Collarus</li>
-        <li>Horribilis</li>
-        <li>Nelsoni (extinct)</li>
-    </ul>
-        
-    <p>The following countries have the largest populations of brown bears:</p>
-
-    <ol>
-        <li>Russia</li>
-        <li>United States</li>
-        <li>Canada</li>
-    </ol> 
-
-    <img src="bear.jpg">
-
-</body>
-</html>
-
-
-
-<!-- 4. HTML Lists -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>HTML Lists</title>
-</head>
-<body>
-    <ol type="I">
-        <li>List item 1
-            <ol type="a">
-                <li>Nested item 1.1</li>
-                <li>Nested item 1.2</li>
-            </ol>
-        </li>
-        <li>List item 2
-            <ol type="1">
-                <li>Nested item 2.1</li>
-                <li>Nested item 2.2
-                    <ul type="circle">
-                        <li>Nested item 2.2.1</li>
-                        <li>Nested item 2.2.2</li>
-                        <li>Nested item 2.2.3</li>
-                    </ul>
-                </li>
-                <li>Nested item 2.3</li>
-            </ol>
-        </li>
-        <li>List item 3
-            <ul type="disc">
-                <li>Nested item 3.1</li>
-                <li>Nested item 3.2</li>
-                <li>Nested item 3.3</li>
-            </ul>
-        </li>
-    </ol>
-</body>
-</html>
-
-
-
-<!-- 5. To Do List -->
-
-<!-- to-do-list.html -->
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>To Do List</title>
-    <link rel="stylesheet" href="to-do-list.css">
-</head>
-<body>
-    <div class="my-list">
-        <h1>Today's to do list</h1>
-        <p>Monday, September 19th</p>
-        <ol>
-            <li>Write a blog post</li>
-            <li>Go to the bank</li>
-            <li>Study for exams</li>
-            <li>Renew web hosting account and domain name</li>
-            <li>Learn something new</li>
-            <li>Update project</li>
-        </ol>
-    </div>
-</body>
-</html>
-
-
-/* to-do-list.css */
-
-
-.my-list
-{
-    background-color: #f7f381;
-    padding: 8px 24px;
-    width: 500px;
-    font-size: 30px;
-    border: 1px solid #f7f381;
-    box-shadow: 0 0 10px 2px #333333;
-    margin: auto;
-}
-
-.my-list ol
-{
-    margin: 12px;
-}
-
-.my-list p
-{
-    text-align: center;
-}
-
-
-
-<!-- 6. Simple HTML Page -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Simple HTML Page</title>
-</head>
-<body>
-    <p>I am learning <strong>HTML</strong> and <strong>CSS</strong>!</p>
-</body>
-</html>
-
-
-
-<!-- 7. Tags Cardio - Paragraphs -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Paragraphs</title>
-</head>
-<body>
-    <h1>Top Tips for Effective Presentations</h1>
-    <p>This page draws on published <strong>advice</strong> from expert presenters around the world, which will help to take your presentations from merely <strong>good</strong>
-    to <strong>great</strong>.</p>
-    <p>By bringing together advice from a wide range of people, the aim is to cover a whole range of areas.</p>
-    <p>Whether you are an experienced presenter, or just starting out, there should be ideas here to help you to <strong>improve</strong>.</p>
-    <p><strong>It's hard to be relaxed and be yourself when you're nervous.</strong></p>
-    <p>But time and again, the great presenters say that the most important thing is to connect with your audience, and the best way to do that is to let your passion for the subject shine through.</p>
-    <p><em>Be <strong>honest</strong> with the audience about what is important to you and why it matters.</em></p>
-    <p><strong>Your presentation needs to be built around what your audience is going to get out of the presentation.</strong></p>
-    <p>As you prepare the presentation, you always need to bear in mind what the audience needs and wants to know, not what you can tell them.</p>
-    <p><em>While you're giving the presentation, you also need to remain <strong>focused</strong> on your audience's response, and <strong>react</strong> to that.</em></p>
-    <p>For more ideas, see our page on Coping with Presentation Nerves.</p>
-    <p><strong>Author: <em>Jhon Devis</em></strong></p>
-</body>
-</html>
-
-
-
-<!-- 8. Single Article Page -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Single Article Page</title>
-</head>
-<body>
-    <article>
-    <h2>Egyptian Mau</h2>
-    <h4>Egyptian Maus are a small- to medium-sized short-haired cat breed.</h4>
-    <p>Along with the Bahraini Dilmun cat, they are one of the few naturally spotted breeds of domesticated cat. The spots of the Mau occur on only the tips of the hairs of its coat. It is considered to be a rare breed.</p>
-    <p>The breed conformation is described as "a balance between the compactness of a Burmese and the slim elegance of a Siamese. Its medium-length body is muscular, with the hind legs longer than the front, giving the Mau the appearance of standing on tiptoes when upright."</p>
-    <img src="Egyptian-Mau-Bronze-750 (1).jpg">
-    </article>
-</body>
-</html>
-
-
-
-<!-- 9. Tags Cardio - Lists -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Lists</title>
-</head>
-<body>
-    <section>
-        <article>
-            <h2>HTML Unordered list</h2>
-            <ul>
-                <li>Hyper is the opposite of linear. It used to be that computer programs had to move in a linear fashion. This before this, this before this, and so on. HTML does not hold to that pattern and allows the person viewing the World Wide Web page to go anywhere, any time they want.</li>
-                <li>Text is what you will use. Real, honest to goodness English letters.</li>
-                <li>Mark up is what you will do. You will write in plain English and then mark up what you wrote. More to come on that in the next Primer.</li>
-                <li>Language because they needed something that started with "L" to finish HTML and Hypertext Markup Louie didn't flow correctly. Because it's a language, really but the language is plain English.</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Reversed list</h2>
-            <ol reversed>
-                <li>Alt-text is not a description of an image, but a replacement for the image in case it is not displayed.</li>
-                <li>An ampersand character & must always be escaped like this: "&" - even in URLs.</li>
-                <li>Most presentation-based HTML tags are deprecated in recent versions of HTML.</li>
-            </ol>
-        </article>
-    </section>
-</body>
-</html>
-
-
-
-<!-- 10. Tags Cardio - Nested Lists -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Nested Lists</title>
-</head>
-<body>
-    <h2>Nested List</h2>
-    <ol type="I">
-        <li>HTML5</li>
-            <ol type="a">
-                <li>markup language</li>
-                <li>used for structuring and presenting content on the World Wide Web</li>
-            </ol>
-        <li>HTML Versions</li>
-            <ol>
-                <li>Development</li>
-                <li>HTML versions timeline</li>
-                    <ul type="circle">
-                        <li>HTML draft version timeline</li>
-                        <li>XHTML versions</li>
-                    </ul>
-                <li>Markup</li>
-            </ol>
-        <li>HTML5 Semantic Tags</li>
-                <ul type="disc">
-                    <li>article</li>
-                    <li>aside</li>
-                    <li>details</li>
-                    <li>figcaption</li>
-                    <li>figure</li>
-                    <li>footer</li>
-                    <li>header</li>
-                    <li>main</li>
-                    <li>mark</li>
-                    <li>nav</li>
-                    <li>section</li>
-                    <li>summary</li>
-                    <li>time</li>
-                </ul>
-    </ol>
-</body>
-</html>
-
-
-
-<!-- 11. Tags Cardio - Table -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Checkout table</title>
-</head>
-<body>
-    <h2>HTML Table</h2>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Self-Employed</th>
-            <th>Country</th>
-        </tr>
-        <tr>
-            <td>Alfreds Futterkiste</td>
-            <td><span style="id:checked">checked</span></td>
-            <td>Germany</td>
-        </tr>
-        <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td></td>
-            <td>Mexico</td>
-        </tr>
-        <tr>
-            <td>Ernst Handel</td>
-            <td></td>
-            <td>Austria</td>
-        </tr>
-        <tr>
-            <td>Island Trading</td>
-            <td><span style="id:checked">checked</span></td>
-            <td>UK</td>
-        </tr>
-        <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td><span style="id:checked">checked</span></td>
-            <td>Canada</td>
-        </tr>
-        <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td></td>
-            <td>Italy</td>
-        </tr>
-    </table>
-</body>
-</html>
-
-
-
-<!-- 11. Navigation Bar -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Navigation Bar</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Tutorials</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Newsletter</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
-
-
-
-<!-- 12. Page Content -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Page Content</title>
-</head>
-<body>
-    <section>
-        <h1><center>Articles</center></h1>
-        <article>
-            <header>
-                <h3>Just Another Day</h3>
-                <em>Written by Christina on January 11th</em>
-            </header>
-            <p>This is my second blog entry, and I just wanted to check in on you. I published my first article about business blogging in August, 2001. You can read it here. Whew. A lot of water under the bridge since then, including 9/11, which happened only a few weeks later.</p>
-        </article>
-        <article>
-            <header>
-                <h3>My First Blog Entry</h3>
-                <em>Written by Christina on January 10th</em>
-            </header>
-            <p>I'm so happy to write my first blog entry - yay! I published my first article about business blogging in August, 2001. You can read it here. Whew. A lot of water under the bridge since then, including 9/11, which happened only a few weeks later.</p>
-        </article>
-    </section>
-</body>
-</html>
-
-
-
-<!-- 13. Simple Website -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Simple Website</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Tutorials</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Newsletter</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1><center>Articles</center></h1>
-            <article>
-                <header>
-                    <h3>Just Another Day</h3>
-                    <em>Written by Christina on January 11th</em>
-                </header>
-                <p>This is my second blog entry, and I just wanted to check in on you. I published my first article about business blogging in August, 2001. You can read it here. Whew. A lot of water under the bridge since then, including 9/11, which happened only a few weeks later.</p>
-            </article>
-            <article>
-                <header>
-                    <h3>My First Blog Entry</h3>
-                    <em>Written by Christina on January 10th</em>
-                </header>
-                <p>I'm so happy to write my first blog entry - yay! I published my first article about business blogging in August, 2001. You can read it here. Whew. A lot of water under the bridge since then, including 9/11, which happened only a few weeks later.</p>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p><center>© Copyright 2009 Your name</center></p>
-    </footer>
-</body>
-</html>
-
-
-
-<!-- 14. Exam Results -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Exam Results</title>
-</head>
-<body>
-    <table>
-        <thead>
-            <tr><th colspan="4">Web fundamentals exam result</th></tr>
-            <tr>
-                <th>№</th>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>Score</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>№</td>
-                <td>First name</td>
-                <td>Last name</td>
-                <td>Score</td>
-            </tr>
-            <tr>
-                <td>01</td>
-                <td>Gosho</td>
-                <td>Goshev</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>02</td>
-                <td>Tosho</td>
-                <td>Toshev</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>03</td>
-                <td>Gencho</td>
-                <td>Genchev</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>04</td>
-                <td>Draga</td>
-                <td>Draganova</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>05</td>
-                <td>Gosho</td>
-                <td>Goshev</td>
-                <td>500</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr><td colspan="4">Average score from 05 participants:500</td></tr>
-        </tfoot>
-    </table>
-</body>
-</html>
-
-
-
-<!-- 15. Tag Cardio: Headers -->
+<!-- 1. Tag Cardio: Headers -->
 
 <!DOCTYPE html>
 <html>
@@ -560,7 +17,7 @@
 
 
 
-<!-- 16. Tag Cardio: Paragraphs -->
+<!-- 2. Tag Cardio: Paragraphs -->
 
 <!DOCTYPE html>
 <html>
@@ -574,7 +31,7 @@
 
 
 
-<!-- 17. Tag Cardio: Order and Unorder Lists -->
+<!-- 3. Tag Cardio: Order and Unorder Lists -->
 
 <!DOCTYPE html>
 <html>
@@ -615,7 +72,7 @@
 
 
 
-<!-- 18. Tag Cardio: Definition Lists -->
+<!-- 4. Tag Cardio: Definition Lists -->
 
 <!DOCTYPE html>
 <html>
@@ -635,7 +92,7 @@
 
 
 
-<!-- 19. Tag Cardio: Semantic HTML Header -->
+<!-- 5. Tag Cardio: Semantic HTML Header -->
 
 <!DOCTYPE html>
 <html>
@@ -652,7 +109,7 @@
 
 
 
-<!-- 20. Tag Cardio: Semantic HTML Main -->
+<!-- 6. Tag Cardio: Semantic HTML Main -->
 
 <!DOCTYPE html>
 <html>
@@ -669,7 +126,7 @@
 
 
 
-<!-- 21. Tag Cardio: Semantic HTML Footer -->
+<!-- 7. Tag Cardio: Semantic HTML Footer -->
 
 <!DOCTYPE html>
 <html>
@@ -683,7 +140,7 @@
 
 
 
-<!-- 22. Tag Cardio: Semantic HTML Article --> 
+<!-- 8. Tag Cardio: Semantic HTML Article --> 
 
 <!DOCTYPE html>
 <html>
@@ -700,7 +157,7 @@
 
 
 
-<!-- 23. Tag Cardio: Semantic HTML Section -->
+<!-- 9. Tag Cardio: Semantic HTML Section -->
 
 <!DOCTYPE html>
 <html>
@@ -717,7 +174,7 @@
 
 
 
-<!-- 24. Tag Cardio: Semantic HTML Nav -->
+<!-- 10. Tag Cardio: Semantic HTML Nav -->
 
 <!DOCTYPE html>
 <html>
@@ -736,7 +193,7 @@
 
 
 
-<!-- 25. Tag Cardio: Semantic HTML Details and Summary -->
+<!-- 11. Tag Cardio: Semantic HTML Details and Summary -->
 
 <!DOCTYPE html>
 <html>
@@ -753,7 +210,7 @@
 
 
 
-<!-- 26. Selector Cardio: Elements -->
+<!-- 12. Selector Cardio: Elements -->
 
 <!DOCTYPE html>
 <html>
@@ -771,7 +228,7 @@
 
 
 
-<!-- 27. Selector Cardio: Class -->
+<!-- 13. Selector Cardio: Class -->
 
 <!DOCTYPE html>
 <html>
@@ -789,7 +246,7 @@
 
 
 
-<!-- 28. Selector Cardio: ID -->
+<!-- 14. Selector Cardio: ID -->
 
 <!DOCTYPE html>
 <html>
@@ -807,7 +264,7 @@
 
 
 
-<!-- 29. Selector Cardio: Attribute -->
+<!-- 15. Selector Cardio: Attribute -->
 
 <!-- selector-cardio-id.html -->
 
@@ -837,7 +294,7 @@ h1 {font-size: 50px;}
 
 
 
-<!-- 30. CSS Properties Cardio: Background -->
+<!-- 16. CSS Properties Cardio: Background -->
 
 <!-- selector-cardio-id.html -->
 
@@ -865,7 +322,7 @@ div {background-color: green;}
 
 
 
-<!-- 31. CSS Properties Cardio: Color -->
+<!-- 17. CSS Properties Cardio: Color -->
 
 <!-- selector-cardio-id.html -->
 
@@ -893,7 +350,7 @@ div {color: red;}
 
 
 
-<!-- 32. CSS Properties Cardio: Font Family -->
+<!-- 18. CSS Properties Cardio: Font Family -->
 
 <!-- selector-cardio-id.html -->
 
@@ -918,342 +375,3 @@ div {color: red;}
 
 
 div {font-family: 'Gill Sans', sans-serif;}
-
-
-
-<!-- 33. Navigation Bar -->
-
-<!-- nav-bar.html -->
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Navigation Bar</title>
-    <link rel="stylesheet" href="nav-bar.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Tutorials</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Newsletter</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
-
-
-
-/* nav-bar.css */
-
-
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #cccccc;
-}
-
-ul {
-    background-color: #444;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-
-li {
-    font-size:  24px;
-    line-height: 40px;
-    height: 40px;
-    padding: 20px;
-    display: inline-block;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-
-
-<!-- 34. Page Content -->
-
-<!-- page-content.html -->
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Page Content</title>
-    <link rel="stylesheet" href="page-content.css">
-</head>
-<body>
-    <section>
-        <article>
-            <header>
-                <h1>Just Another Day</h1>
-                <p>Written by Christina on January 11th</p>
-            </header>
-            <p>This is my second blog entry, and I just wanted to check in on you</p>
-        </article>
-        <article>
-            <header>
-                <h1>My First Blog Entry</h1>
-                <p>Written by Christina on January 10th</p>
-            </header>
-            <p>I'm so happy to write my first blog entry - yay!</p>
-        </article>
-    </section>
-</body>
-</html>
-
-
-/* page-content.css */
-
-
-header > h1 {font-size: 28px;}
-header > p {font-style: italic;}
-article > p {font-size: 24px;}
-
-body 
-    {  
-        margin: 0px;
-        padding: 0px;
-        background-color: #CCCCCC;
-    }
-    
-section {margin-left: 20px;}
-
-
-
-<!-- 35. Simple Website -->
-
-<!-- simple-website.html -->
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Simple Website</title>
-    <link rel="stylesheet" href="simple-website.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Tutorials</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Newsletter</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-    <section>
-        <article>
-            <header>
-                <h1>Just Another Day</h1>
-                <p>Written by Christina on January 11th</p>
-            </header>
-            <p>This is my second blog entry, and I just wanted to check in on you</p>
-        </article>
-        <article>
-            <header>
-                <h1>My First Blog Entry</h1>
-                <p>Written by Christina on January 10th</p>
-            </header>
-            <p>I'm so happy to write my first blog entry - yay!</p>
-        </article>
-    </section>
-    <footer>
-        <p>© Copyright 2009 Your name</p>
-    </footer>
-</body>
-</html>
-
-
-/* simple-website.css */
-
-
-ul {
-    background-color: #444;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-
-li {
-    font-size:  24px;
-    line-height: 40px;
-    height: 40px;
-    padding: 20px;
-    display: inline-block;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-header > h1 {font-size: 28px;}
-header > p {font-style: italic;}
-p {font-size: 24px;}
-
-body {  
-        margin: 0px;
-        padding: 0px;
-        background-color: #CCCCCC;
-    }
-
-section {margin-left: 20px;}
-
-footer 
-{
-    background-color: #444;
-    color: #fff;
-    text-align: center;
-}
-
-
-
-<!-- 36. Exam Results -->
-
-<!-- exam-results.html -->
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Exam Results</title>
-    <link rel="stylesheet" href="exam-results.css">
-</head>
-<body>
-    <table>
-        <thead>
-            <tr><th colspan="4">Web fundamentals exam result</th></tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="bold">№</td>
-                <td class="bold">First name</td>
-                <td class="bold">Last name</td>
-                <td class="bold">Score</td>
-            </tr>
-            <tr>
-                <td>01</td>
-                <td>Gosho</td>
-                <td>Goshev</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>02</td>
-                <td>Tosho</td>
-                <td>Toshev</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>03</td>
-                <td>Gencho</td>
-                <td>Genchev</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>04</td>
-                <td>Draga</td>
-                <td>Draganova</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>05</td>
-                <td>Gosho</td>
-                <td>Goshev</td>
-                <td>500</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr><td colspan="4" class="result">Average score from 05 participants: 500</td></tr>
-        </tfoot>
-    </table>
-</body>
-</html>
-
-
-/* exam-results.css */
-
-
-table {
-    border: 1px solid #000000;
-    padding-left: 5px;
-}
-
-td {
-    border: 1px solid #000000;
-    padding-left: 5px;
-}
-
-tr {
-    border: 1px solid #000000;
-    padding-left: 5px;
-}
-
-th {
-    border: 1px solid #000000;
-    padding-left: 5px;
-}
-
-.bold {
-    font-weight: bold;
-    text-align: center;
-}
-
-.result {
-    width: 400px;
-    text-align: right;
-    padding-right: 5px;
-}
-
-
-
-<!-- 37. My First Page -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>My First Page</title>
-</head>
-<body>
-    <h1>My super website</h1>
-    <p>Hello and welcome to my website!</p>
-    <p>My website is still a bit empty. But wait a while yet!</p>
-</body>
-</html>
-
-
-
-<!-- 39. Description List -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Description List</title>
-</head>
-<body>
-    <h1>Languages</h1>
-    <dl>
-        <dt>HTML</dt>
-        <dd>Is a markup language</dd>
-        <dt>Java</dt>
-        <dd>Is a programming language and platform</dd>
-        <dt>JavaScript</dt>
-        <dd>Is a scripting language</dd>
-    </dl>
-</body>
-</html>
