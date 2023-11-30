@@ -5,21 +5,19 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Restaurant Menu</title>
-    <link rel="stylesheet" href="restaurant-menu.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="restaurant-menu.css">
+  <title>Restaurant Menu</title>
 </head>
-
 <body>
-    <article>
-        <h1>New Restaurant Menu</h1>
-        <span>On average, guests will only look at a menu for 109 seconds.</span>
-        <p>Restaurant menu design is part science, part creativity. A well-planned menu design is key to providing the best experience for them and the best sales for you. Let's talk about what takes a menu from good to great.</p>
-    </article>
+  <article>
+    <h1>New Restaurant Menu</h1>
+    <span>On average, guests will only look at a menu for 109 seconds.</span>
+    <p>Restaurant menu design is part science, part creativity. A well-planned menu design is key to providing the best experience for them and the best sales for you. Let's talk about what takes a menu from good to great.</p>
+  </article>
+  
 </body>
-
 </html>
 
 
@@ -40,7 +38,7 @@ h1 {
 span {
   font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-style: oblique;
-  font-weight: 600;
+  font-size: 600;
   font-size: 16px;
   line-height: 1.46;
   color: #5c5a5a;
@@ -48,8 +46,8 @@ span {
 
 p {
   font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-style: 400;
+  font-family: 16px;
   line-height: 1.46;
   color: #5c5a5a;
 }
@@ -103,13 +101,6 @@ p {
 /* style-lists.css */
 
 
-@font-face{
-  font-family:"helvetica";
-  src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
-  url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
-  url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
-}
-
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.5;
@@ -120,10 +111,7 @@ body {
 h2 {
   text-decoration: underline;
   padding: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 10px 5px;
   letter-spacing: 3px;
   background-color: #3B516B;
   border-radius: 10px;
@@ -146,7 +134,8 @@ li {
 
 <head>
     <title>Styling Tables</title>
-    <link rel="stylesheet" href="styling-table.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="styling-tables.css">
 </head>
 
 <body>
@@ -212,14 +201,12 @@ li {
 </html>
 
 
-/* styling-table.css */
+/* styling-tables.css */
 
-
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 body {
   font-family: Montserrat, sans-serif;
-  padding: 16px
+  padding: 16px;
 }
 
 th {
@@ -229,10 +216,6 @@ th {
 th, td {
   width: 144px;
   height: 32px;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   padding-left: 5px;
 }
-
-
-
-<!-- 4. Buttons CSS -->
